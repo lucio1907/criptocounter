@@ -31,6 +31,17 @@ const NavButtons = (): React.ReactElement => {
             />
           </a>
         </li>
+        <li className="flex flex-col">
+          <a
+           href="/" className="w-full bg-slate-500 rounded-3xl p-3">
+            <img src="/taskprueba.webp"
+             alt="Recompensas"
+             className="w-[80px] h-[80px] object-contain">
+            
+            </img>
+            
+          </a>
+        </li>
       </ul>
     </div>
   );

@@ -7,14 +7,14 @@ const Counter = (): React.ReactElement => {
   const [rotation, setRotation] = useState<number>(0);
 
   const handleClick = () => {
-    setCounter(counter + 1000 * multiplier);
+    setCounter(counter + 10 * multiplier);
     setRotation(rotation + 360);
   };
 
   useEffect(() => {
     setPoints(counter);
 
-    const nextThreshold = 5000 * multiplier;
+    const nextThreshold = 200 * multiplier;
 
     if (points >= nextThreshold) {
       // Solo aumenta el multiplicador si no alcanzo el maximo
