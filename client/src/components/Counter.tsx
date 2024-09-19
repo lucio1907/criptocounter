@@ -5,7 +5,7 @@ const Counter = (): React.ReactElement => {
   const [rotation, setRotation] = useState<number>(0);
 
   const handleClick = () => {
-    setCounter(counter + 1);
+    setCounter(counter + 1000);
     setRotation(rotation + 360);
   };
 
